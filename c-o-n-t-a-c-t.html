@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./c-o-n-t-a-c-t.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Red Hat Text:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body link="white" vlink="white" alink="gray">
+    <div class="container"></div>
+    <div class="transition">
+      <div class="cover cover1"></div>
+      <div class="cover cover2"></div>
+      <div class="cover cover3"></div>
+    </div>
+    <div class="containe"></div>
+    <div class="transitio">
+      <div class="cover cove1"></div>
+      <div class="cover cove2"></div>
+      <div class="cover cove3"></div>
+    </div>
+    <div class="contain"></div>
+    <div class="transiti">
+      <div class="cover cov1"></div>
+      <div class="cover cov2"></div>
+      <div class="cover cov3"></div>
+    
+    </div>
+    <div class="contact-div">
+      <div class="studying-at-poornima-universit">
+        <p class="studying-at-p">STUDYING AT</p>
+        <p class="poornima-university">POORNIMA UNIVERSITY</p>
+      </div>
+      <div class="twitter-div" id="tWITTERText">TWITTER</div>
+      <div class="instagram-div"><a href="https://instagram.com/jriyansh03?igshid=YmMyMTA2M2Y=" style="text-decoration:none ;">INSTAGRAM</a></div>
+      <div class="lindekin-div" id="lindekInText">LindekIn</div>
+      <div class="send-me-a-message">SEND ME A MESSAGE</div>
+      <b class="connectto-riyanshgamil-com" id="cONNECTTORIYANSHGAMILCOM"
+        ><p class="studying-at-p"><a href = "mailto:connect.to.riyansh@gmail.com" style="text-decoration:none ;">CONNECT.TO.
+        <br>RIYANSH@GAMIL.
+        <br>COM</a></p></b
+      >
+      <div class="or-connect-with-me-on-socials">
+        <p class="studying-at-p" >OR CONNECT WITH
+    ME ON SOCIALS</p>  
+      </div>
+      <div class="contact-div1">CONTACT</div>
+      <div class="about" id="aBOUTText"><a href ="a-b-o-u-t.html" class="abt" style="text-decoration: none;">ABOUT</a></div>
+      <div class="work" id="wORKText"><a href ="w-o-r-k.html" class="wk" style="text-decoration: none;">WORK</a></div>
+      <div class="home" id="hOMEText"><a href ="index.html" class="hm" style="text-decoration: none;">HOME</a></div>
+      <div class="riyansh-jain-div">RIYANSH JAIN</div>
+    </div>
+
+    <script>
+      var tWITTERText = document.getElementById("tWITTERText");
+      if (tWITTERText) {
+        tWITTERText.addEventListener("click", function () {
+          window.open(
+            "https://twitter.com/riyanshjain18?t=hsx9SEC8r7twkRwCFsvILw&s=09"
+          );
+        });
+      }
+      
+      var lindekInText = document.getElementById("lindekInText");
+      if (lindekInText) {
+        lindekInText.addEventListener("click", function () {
+          window.open("https://www.linkedin.com/in/riyansh-jain-890275228");
+        });
+      }
+      
+      
+      
+      
+      
+      
+      
+     
+      </script>
+      <script>
+        const link = document.querySelector(".wk");
+        
+        
+        const transition= document.querySelector(".transition");
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          transition.classList.add("slide");
+          setTimeout(()=> {
+            window.location = "./w-o-r-k.html";
+          },900);
+        
+        }
+        );
+      </script>
+      
+       <script>
+        const abt = document.querySelector(".abt");
+        
+        const transitio = document.querySelector(".transition");
+        abt.addEventListener("click", (e) => {
+          e.preventDefault();
+          transition.classList.add("slide");
+          setTimeout(()=> {
+            window.location = abt.href;
+          },900);
+        
+        }
+        );
+      </script>
+       
+       <script>
+        const hm = document.querySelector(".hm");
+        
+        const transiti = document.querySelector(".transition");
+        hm.addEventListener("click", (e) => {
+          e.preventDefault();
+          transition.classList.add("slide");
+          setTimeout(()=> {
+            window.location = hm.href;
+          },900);
+        
+        }
+        );
+       </script>
+
+  </body>
+</html>
